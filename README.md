@@ -18,3 +18,7 @@
 - DB: PostgreSQL
 
 ## 테이블 설계
+
+## 서버 및 뷰 세팅
+
+https://magicmk.tistory.com/19
