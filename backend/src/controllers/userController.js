@@ -22,13 +22,11 @@ export const postSignUp = async (req, res) => {
 
     await user.save();
 
-    res.status(201).redirect("/");
+    res.status(201).send("Create Success");
   } catch (e) {
     console.error(e.message);
     res.status(500).send("Server Error");
   }
-
-  res.redirect("/");
 };
 
 // login
